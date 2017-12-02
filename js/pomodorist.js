@@ -20,6 +20,7 @@ function count() {
         document.getElementById("zemo").innerHTML = "End";
         document.getElementById("stojko").innerHTML = "End";
         document.getElementById("space").innerHTML = " ";
+        document.body.style.backgroundImage = "url('../ketchup.jpg')";
     }
 
 }
