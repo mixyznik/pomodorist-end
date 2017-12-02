@@ -1,0 +1,59 @@
+.box p {
+
+    display: inline-block;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+    font-style: italic;
+    font-family: "Tangerine", serif;
+    font-size: 400%;
+}
+
+#opa {
+    margin-left: 10px;
+    background-color: orange;
+}
+
+#opa1 {
+
+    margin-left: 50px;
+    background-color: orange;
+}
+
+#zemo {
+    color: red;
+    font-size: 250%;
+    margin-left: 50px;
+    font-family: "Times New Roman", Georgia, Serif;
+}
+
+#stojko {
+    color: red;
+    font-size: 250%;
+    margin-left: 55px;
+    font-family: "Times New Roman", Georgia, Serif;
+}
+
+body {
+
+
+    background-image: url("../tomato.jpg");
+    background-repeat: no-repeat;
+}
+
+#opa2 {
+    margin-left: 50px;
+    background-color: orange;
+}
+
+#container {
+    background-color: #cccccc;
+    width: 280px;
+    position: relative;
+    left: 630px;
+    top: 266px;
+    border-color: thick black;
+    border-style: solid;
+}
