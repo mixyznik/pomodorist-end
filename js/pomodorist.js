@@ -17,8 +17,9 @@ function count() {
     }
     if (minut < 0) {
         clearInterval(y);
-        document.getElementById("zemo").innerHTML = "Kraj";
-        document.getElementById("stojko").innerHTML = "Kraj";
+        document.getElementById("zemo").innerHTML = "End";
+        document.getElementById("stojko").innerHTML = "End";
+        document.getElementById("space").innerHTML = " ";
     }
 
 }
@@ -26,6 +27,7 @@ function count() {
 function start() {
 
     y = setInterval(count, 1000);
+
 }
 
 function reset() {

@@ -9,31 +9,38 @@ h1 {
     font-style: italic;
     font-family: "Tangerine", serif;
     font-size: 400%;
+    font-weight: bold;
 }
 
 #opa {
     margin-left: 10px;
-    background-color: orange;
+    background-color: green;
+    cursor: pointer;
 }
 
 #opa1 {
 
     margin-left: 50px;
-    background-color: orange;
+    background-color: LightCoral;
+    cursor: pointer;
 }
 
 #zemo {
     color: red;
-    font-size: 250%;
-    margin-left: 50px;
+    font-size: 200%;
+    margin-left: 40px;
     font-family: "Times New Roman", Georgia, Serif;
+    font-style: italic;
+    font-weight: bold;
 }
 
 #stojko {
     color: red;
-    font-size: 250%;
+    font-size: 200%;
     margin-left: 55px;
     font-family: "Times New Roman", Georgia, Serif;
+    font-style: italic;
+    font-weight: bold;
 }
 
 body {
@@ -45,15 +52,25 @@ body {
 
 #opa2 {
     margin-left: 50px;
-    background-color: orange;
+    background-color: Aqua;
+    cursor: pointer;
 }
 
 #container {
-    background-color: #cccccc;
+    background-color: Turquoise;
     width: 280px;
     position: relative;
     left: 630px;
     top: 266px;
     border-color: thick black;
     border-style: solid;
+}
+
+#space {
+    color: red;
+    font-size: 250%;
+    margin-left: 35px;
+    font-family: "Times New Roman", Georgia, Serif;
+    font-style: italic;
+    font-weight: bold;
 }
